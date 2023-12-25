@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body{
+            background: url('../learningcenter/img/img4.jpg') no-repeat center center/cover;
+        }
+
+        /* container */
+        
+        .container {
+            /* margin: auto; */
+            /* width: 120px; */
+            background-color: rgba(0, 0, 0, 0.466);
+            float: right;
+            /* background: url('../pro/img/img1.jpg')no-repeat center  center/cover; */
+            height: 500px;
+            width: 325px;
+            padding: 10px 50px;
+        }
+
+        .container h1 {
+            margin-top: 70px;
+            color: white;
+        }
+
+        /* form */
+
+        form {
+            padding: 100px;
+        }
+
+        .form input {
+            width: 300px;
+            margin: 20px 0px;
+            padding: 10px 8px;
+            border-radius: 20px;
+            border: none;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 15px;
+            outline: 0;
+        }
+
+        /* button */
+
+        .button input {
+            width: 320px;
+            margin: 20px 0px;
+            padding: 10px 0px;
+            border-radius: 20px;
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            background-color: #5365d2;
+            color: white;
+            outline: 0;
+            cursor: pointer;
+        }
+
+        .check-box{
+            color: white;
+        }
+
+        /* signup */
+
+        .link{
+            text-align: center;
+        }
+        .link a{
+            text-decoration: none;
+            margin: 38px;
+            color: rgb(236, 226, 226);
+        }
+
+        /* .main-container{
+            background: url('../pro/img/img3.jpg') no-repeat center center/cover;
+        } */
+    </style>
+</head>
+
+<body>
+    <form action="action.php">
+        <!-- <div class="main-container"> -->
+            <div class="container">
+                <h1>Log In</h1><hr>
+
+                <div class="form">
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Username" required>
+                </div>
+
+                <div class="form">
+                    <label for="pass"></label>
+                    <input type="password" id="pass" placeholder="Password" required>
+                </div>
+
+                <div class="check-box">
+                    <input type="checkbox" id="c">
+                    <label for="c">Keep me sign in</label>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Sign In">
+                </div>
+
+                <div class="link">
+                    <a href="register.html">Sign Up</a>
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+        <!-- </div> -->
+    </form>
+</body>
+
+</html>

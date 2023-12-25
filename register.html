@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            background: url('../learningcenter/img/img2.jpg')no-repeat center center/cover;
+        }
+
+        /* container */
+
+        .container {
+            /* margin: auto; */
+            background-color: rgba(255, 255, 255, 0.438);
+            height: 570px;
+            width: 400px;
+            padding: 40px 50px;
+        }
+
+        /* form */
+
+        form {
+            padding: 50px;
+            float: right;
+        }
+
+        .form {
+            display: grid;
+            justify-content: center;
+        }
+
+        .form input {
+            width: 300px;
+            padding: 9px 25px;
+            margin: 16px;
+            border-radius: 20px;
+            border: none;
+            outline: 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+
+        /* button */
+
+        .button input {
+            padding: 10px 40px;
+            float: right;
+            margin-top: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            border-radius: 20px;
+            border: none;
+            outline: 0;
+            background-color: rgb(57, 57, 231);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* link */
+
+        .link{
+            margin: 80px 0px;
+        }
+
+        .link span{
+            font-size: 17px;
+        }
+
+        .link a{
+            padding: 15px;
+            text-decoration: none;
+        }
+
+        h1{
+            color: rgb(44, 43, 43);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="register">
+        <div class="container">
+            <marquee behavior="" direction="left">
+                <h1>Registeration form</h1>
+            </marquee><hr>
+                
+            <div class="form">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Enter your first name" required>
+
+                <label for="last"></label>
+                <input type="text" id="last" placeholder="Enter your last name" required>
+
+                <label for="last"></label>
+                <input type="email" id="last" placeholder="Username@domain.com" required>
+
+                <label for="last"></label>
+                <input type="password" id="last" placeholder="Password" required>
+
+                <label for="last"></label>
+                <input type="password" id="last" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="radio">
+                <label for="male"><strong> Gender </strong></label>
+                <input type="radio" id="male" value="male" name="gender" checked>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+
+            <div class="link">
+                <span>Already have an account?</span>
+                <a href="SignIn.html">Sign In</a>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
